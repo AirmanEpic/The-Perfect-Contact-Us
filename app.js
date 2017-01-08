@@ -1,5 +1,10 @@
 var main=function(){
-	
+	$('.js-button').toggle()
+	$(".php-button").toggle()
+
+	$('.js-button').click(function(){
+		
+	})
 }
 
 
