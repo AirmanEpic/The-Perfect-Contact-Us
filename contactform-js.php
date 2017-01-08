@@ -58,7 +58,7 @@ if(isset($_POST['cap']) && !empty($_POST['cap'])){
 }
 else
 {
-    $error="Sorry! We couldn't verify if you were a bot or not. Please make sure you entered the CAPTCHA.";}
+    $error="Sorry! We couldn't verify if you were a bot or not. Please make sure you entered the CAPTCHA.";
 }
 
 function test_input($data) {

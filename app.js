@@ -3,6 +3,7 @@ var main=function(){
 	$(".php-button").toggle()
 
 	$('.js-button').click(function(){
+		
 		N1=$('#name').val()
 		E1=$('#email').val()
 		C1=$('#comment').val()

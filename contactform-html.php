@@ -6,7 +6,7 @@ $error="";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   //collect data from post html post request.
-  $email = test_input($_POST["Email"]);
+  $email = test_input($_POST["email"]);
   $name = test_input($_POST["name"]);
   $capresponse = test_input($_POST["g-recaptcha-response"]);
   $comment = test_input($_POST["comment"]);
